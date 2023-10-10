@@ -5,7 +5,7 @@ function MudaDesenho(){
 
     const msg = document.querySelector(".msg");
     
-    if(x <= 432 && y <= 468){
+    if(x <= 432 && y <= 468 && x > 0 && y > 0){
         msg.innerHTML = "Dentro";
     }
 

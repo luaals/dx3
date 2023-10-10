@@ -1,22 +1,48 @@
-*{
-  padding: 0;
-  margin: 0;
+* {
+    padding: 0;
+    margin: 0;
 }
-.tira{
+
+.tira {
     background-color: rgb(255, 191, 30);
     padding: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
+
 }
-.valor{
+
+.valor {
     background-color: rgb(255, 145, 0);
     padding: 10%;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.zero{
+
+.zero {
     background-color: red;
     padding: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
+}
+
+input {
+    display: block;
+    width: 350px;
+    height: 35px;
+    color: midnightblue;
+    background-color: rgb(243, 230, 213);
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+}
+
+button:hover {
+
+    background-color: #4d1b64aa;
+    color: rgb(255, 255, 255);
 }
